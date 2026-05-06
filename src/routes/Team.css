@@ -1,0 +1,36 @@
+.team-container {
+  background: #121212; /* deep black background */
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  color: #e0e0e0; /* light gray text */
+}
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.team-table th, .team-table td {
+  border: 1px solid #333; /* darker borders */
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.team-table th {
+  background: #00b894; /* teal header */
+  color: #fff;
+}
+
+.team-table tr:nth-child(even) {
+  background: #1e1e1e; /* dark gray for even rows */
+}
+
+.team-table tr:nth-child(odd) {
+  background: #181818; /* slightly lighter black for odd rows */
+}
+
+.team-table tr:hover {
+  background: #2c2c2c; /* hover highlight */
+}
